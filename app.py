@@ -101,15 +101,15 @@ elif st.session_state.page == 'page1':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app"
-            style="height: 600px; width: 100%;"
+            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
         """,
-        height=600,  
-        width=800,   
+        height=450,  
+        width=700,   
     )
-    
+
     # Button to go back to Home
     if st.button("Back to Home"):
         go_home()
@@ -122,13 +122,13 @@ elif st.session_state.page == 'page2':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app/?utm_medium=oembed"
-            style="height: 100vh; width: 100%;"
+            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
         """,
-        height=0,  # Set to 0 because the iframe handles its own height
-        width=0,   # Set to 0 because the iframe handles its own width
+        height=450,  
+        width=700,   
     )
     
     # Button to go back to Home
@@ -143,15 +143,15 @@ elif st.session_state.page == 'page3':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app/?utm_medium=oembed"
-            style="height: 100vh; width: 100%;"
+            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
         """,
-        height=0,  # Set to 0 because the iframe handles its own height
-        width=0,   # Set to 0 because the iframe handles its own width
+        height=450,  
+        width=700,   
     )
-    
+
     # Button to go back to Home
     if st.button("Back to Home"):
         go_home()
@@ -164,15 +164,15 @@ elif st.session_state.page == 'page4':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app/?utm_medium=oembed"
-            style="height: 100vh; width: 100%;"
+            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
         """,
-        height=0,  # Set to 0 because the iframe handles its own height
-        width=0,   # Set to 0 because the iframe handles its own width
+        height=450,  
+        width=700,   
     )
-    
+
     # Button to go back to Home
     if st.button("Back to Home"):
         go_home()
