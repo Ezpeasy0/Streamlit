@@ -80,22 +80,22 @@ if st.session_state.page == 'home':
         st.sidebar.subheader(f"Predicted Cluster: {cluster_prediction}")
 
         # Navigate to page of cluster prediction
-        if cluster_prediction == 1:
+        if cluster_prediction == 0:
             st.session_state.page = 'page1'
             st.rerun()  # Refresh the app 
-        elif cluster_prediction == 2:
+        elif cluster_prediction == 1:
             st.session_state.page = 'page2'
             st.rerun()  # Refresh the app 
-        elif cluster_prediction == 3:
+        elif cluster_prediction == 2:
             st.session_state.page = 'page3'
             st.rerun()  # Refresh the app 
-        elif cluster_prediction == 4:
+        elif cluster_prediction == 3:
             st.session_state.page = 'page4'
             st.rerun()  # Refresh the app 
 
 # Page 1
 elif st.session_state.page == 'page1':
-    st.title("Cluster1")
+    st.title("Cluster0")
     
     # Use st.components.v1.html to render the iframe
     st.components.v1.html(
@@ -116,7 +116,7 @@ elif st.session_state.page == 'page1':
 
 # Page 2
 elif st.session_state.page == 'page2':
-    st.title("Cluster2")
+    st.title("Cluster1")
     
     # Use st.components.v1.html to render the iframe
     st.components.v1.html(
@@ -137,7 +137,7 @@ elif st.session_state.page == 'page2':
 
 # Page 3
 elif st.session_state.page == 'page3':
-    st.title("Cluster3")
+    st.title("Cluster2")
     
     # Use st.components.v1.html to render the iframe
     st.components.v1.html(
@@ -158,7 +158,7 @@ elif st.session_state.page == 'page3':
 
 # Page 4
 elif st.session_state.page == 'page4':
-    st.title("Cluster4")
+    st.title("Cluster3")
     
     # Use st.components.v1.html to render the iframe
     st.components.v1.html(
