@@ -101,7 +101,7 @@ elif st.session_state.page == 'page1':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            src="https://ieny4uefywdpjfyra3zynv.streamlit.app?embed=true"
             style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
@@ -122,7 +122,7 @@ elif st.session_state.page == 'page2':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            src="https://3ibapx9dzf7okbxscer7dy.streamlit.app?embed=true"
             style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
@@ -143,7 +143,7 @@ elif st.session_state.page == 'page3':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            src="https://kchuujb7snk3yjvnzj77qm.streamlit.app?embed=true"
             style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
@@ -164,7 +164,7 @@ elif st.session_state.page == 'page4':
     st.components.v1.html(
         """
         <iframe
-            src="https://data-ming-b5odzxw9m6euvzewcznj55.streamlit.app?embed=true"
+            src="https://sdaeqq33tfvf5ziw5e3mqr.streamlit.app?embed=true"
             style="height: 450px; width: 100%;"
             frameborder="0">
         </iframe>
